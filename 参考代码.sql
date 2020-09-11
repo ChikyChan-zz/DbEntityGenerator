@@ -43,3 +43,22 @@ from
     yourDataBase.information_schema.columns
 where
     table_name = 'yourTable';
+
+-- 查看表的列
+select
+    *
+from
+    AdventureWorks2017.sys.columns
+where
+    object_id = object_id('HumanResources.EmployeePayHistory');
+
+-- 查看注释
+select
+    *
+from
+    sys.extended_properties
+where
+    name = 'MS_Description'
+    and p.class = 1
+    -- and major_id = object_id('HumanResources.EmployeePayHistory') --查看表下所有对象的注释
+    -- and minor_id = [column_id] -- column_id为查看某列的注释，0为查看表注释;
