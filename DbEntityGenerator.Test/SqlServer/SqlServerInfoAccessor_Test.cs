@@ -3,10 +3,10 @@ using System.Linq;
 
 using Xunit;
 
-using CSharpDbEntityGenerator.Core.DataBaseInfoAccessor;
-using CSharpDbEntityGenerator.Core.Model;
+using DbEntityGenerator.Core.DataBaseInfoAccessor;
+using DbEntityGenerator.Core.Model;
 
-namespace CSharpDbEntityGenerator.Test.SqlServer
+namespace DbEntityGenerator.Test.SqlServer
 {
     public class SqlServerInfoAccessor_Test
     {

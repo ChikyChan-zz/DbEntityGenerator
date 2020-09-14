@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26124.0
 MinimumVisualStudioVersion = 15.0.26124.0
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDbEntityGenerator.Cmd", "CSharpDbEntityGenerator.Cmd\CSharpDbEntityGenerator.Cmd.csproj", "{7AC5F21F-EC3A-4BA8-B0CC-DF0FECA3457A}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbEntityGenerator.Cmd", "DbEntityGenerator.Cmd\DbEntityGenerator.Cmd.csproj", "{7AC5F21F-EC3A-4BA8-B0CC-DF0FECA3457A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDbEntityGenerator.Core", "CSharpDbEntityGenerator.Core\CSharpDbEntityGenerator.Core.csproj", "{3D8AA5CB-AF7E-4E0B-8D4C-7D4535876CCC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbEntityGenerator.Core", "DbEntityGenerator.Core\DbEntityGenerator.Core.csproj", "{3D8AA5CB-AF7E-4E0B-8D4C-7D4535876CCC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpDbEntityGenerator.Test", "CSharpDbEntityGenerator.Test\CSharpDbEntityGenerator.Test.csproj", "{AFFF6ECE-359E-4C98-ADB9-8D9F61AC3319}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DbEntityGenerator.Test", "DbEntityGenerator.Test\DbEntityGenerator.Test.csproj", "{AFFF6ECE-359E-4C98-ADB9-8D9F61AC3319}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

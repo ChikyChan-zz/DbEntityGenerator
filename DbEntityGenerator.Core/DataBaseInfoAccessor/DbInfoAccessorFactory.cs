@@ -1,9 +1,9 @@
 using System;
 
-using CSharpDbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer;
-using CSharpDbEntityGenerator.Core.Model;
+using DbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer;
+using DbEntityGenerator.Core.Model;
 
-namespace CSharpDbEntityGenerator.Core.DataBaseInfoAccessor
+namespace DbEntityGenerator.Core.DataBaseInfoAccessor
 {
     /// <summary>
     /// 用于创建获取数据库信息访问器的工厂

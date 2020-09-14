@@ -2,9 +2,9 @@ using System;
 using System.Collections.Generic;
 using System.Data;
 
-using CSharpDbEntityGenerator.Core.Model;
+using DbEntityGenerator.Core.Model;
 
-namespace CSharpDbEntityGenerator.Core.DataBaseInfoAccessor
+namespace DbEntityGenerator.Core.DataBaseInfoAccessor
 {
     /// <summary>
     /// 定义数据库信息访问器的基类

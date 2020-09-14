@@ -2,11 +2,11 @@ using System;
 
 using Xunit;
 
-using CSharpDbEntityGenerator.Core.DataBaseInfoAccessor;
-using CSharpDbEntityGenerator.Core.Model;
-using CSharpDbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer;
+using DbEntityGenerator.Core.DataBaseInfoAccessor;
+using DbEntityGenerator.Core.Model;
+using DbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer;
 
-namespace CSharpDbEntityGenerator.Test
+namespace DbEntityGenerator.Test
 {
     public class DbInfoAccessorFactory_Test
     {

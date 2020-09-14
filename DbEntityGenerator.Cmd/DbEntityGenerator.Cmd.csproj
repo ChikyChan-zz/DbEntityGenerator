@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\CSharpDbEntityGenerator.Core\CSharpDbEntityGenerator.Core.csproj" />
+    <ProjectReference Include="..\DbEntityGenerator.Core\DbEntityGenerator.Core.csproj" />
   </ItemGroup>
 
 </Project>

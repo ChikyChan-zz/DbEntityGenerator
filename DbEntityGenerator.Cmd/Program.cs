@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CSharpDbEntityGenerator.Cmd
+namespace DbEntityGenerator.Cmd
 {
     class Program
     {

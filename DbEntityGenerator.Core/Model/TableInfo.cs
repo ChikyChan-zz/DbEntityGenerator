@@ -1,4 +1,4 @@
-namespace CSharpDbEntityGenerator.Core.Model
+namespace DbEntityGenerator.Core.Model
 {
     public class TableInfo
     {

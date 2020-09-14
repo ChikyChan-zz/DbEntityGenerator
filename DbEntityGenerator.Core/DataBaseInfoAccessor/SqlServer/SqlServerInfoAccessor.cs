@@ -5,9 +5,9 @@ using System.Linq;
 
 using Microsoft.Data.SqlClient;
 
-using CSharpDbEntityGenerator.Core.Model;
+using DbEntityGenerator.Core.Model;
 
-namespace CSharpDbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer
+namespace DbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer
 {
     /// <summary>
     /// Sql Server数据库信息访问器
@@ -19,10 +19,12 @@ namespace CSharpDbEntityGenerator.Core.DataBaseInfoAccessor.SqlServer
         /// <inheritdoc />
         public SqlServerInfoAccessor(string server, string userName, string password) : base(server, userName, password)
         {
-            var connectionStringBuilder = new SqlConnectionStringBuilder();
-            connectionStringBuilder.DataSource = Server;
-            connectionStringBuilder.UserID = UserName;
-            connectionStringBuilder.Password = Password;
+            var connectionStringBuilder = new SqlConnectionStringBuilder()
+            {
+                DataSource = Server,
+                UserID = UserName,
+                Password = Password
+            };
 
             ConnectionString = connectionStringBuilder.ConnectionString;
         }
